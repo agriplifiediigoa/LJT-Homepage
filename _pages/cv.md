@@ -11,54 +11,60 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **Ph.D. in Computer Science** (2024 - Present)
+  - Hong Kong University of Science and Technology (HKUST)
+  - Advisor: Professor Junxian He
+
+- **B.Eng.** (2020 - 2024)
+  - Shanghai Jiao Tong University (SJTU)
+  - Graduated June 2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **Research Intern** (February 2025 - Present)
+  - MINIMAX
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Research Intern** (June 2024 - September 2024)
+  - Tencent WXG
+  - Advisor: Zifei Shan
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+- **Research Intern** (June 2023 - December 2023)
+  - Shanghai AI Lab
+  - Advisor: Prof. Yu Cheng
+
+Research Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Natural Language Processing
+- Machine Learning
+- LLM Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models (VLM)
+- LLM Truthfulness and Interpretability
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  &lt;ul&gt;{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}&lt;/ul&gt;
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
+  &lt;ul&gt;{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}&lt;/ul&gt;
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
+  &lt;ul&gt;{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}&lt;/ul&gt;
   
-Service and leadership
+Awards and Honors
 ======
-* Currently signed in to 43 different slack teams
+- Zhiyuan Honor Scholarship, Shanghai Jiao Tong University
+
+Contact
+======
+- **Email:** [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
+- **GitHub:** [Vicent0205](https://github.com/Vicent0205)
+- **Google Scholar:** [Profile](https://scholar.google.com/citations?hl=en&amp;user=tbK9jl4AAAAJ&amp;view_op=list_works&amp;sortby=pubdate)
+- **X (Twitter):** [@junteng88716710](https://x.com/junteng88716710)

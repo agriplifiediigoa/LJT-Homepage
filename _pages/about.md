@@ -44,27 +44,12 @@ Before starting my PhD, I received my B.Eng. from Shanghai Jiao Tong University 
 
 ## Publications
 
-{% include base_path %}
-
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        &lt;h2&gt;{{ category[1].title }}&lt;/h2&gt;&lt;hr /&gt;
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+- **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond** (2025) - First author
+- **On the Perception Bottleneck of VLMs for Chart Understanding** (2025) - First author
+- **On the Universal Truthfulness Hyperplane Inside LLMs** at EMNLP 2024 - First author
+- **In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation** at ICML 2024 - Co-author
+- **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models** at NeurIPS 2023 - Co-author
+- **Composing Parameter-Efficient Modules with Arithmetic Operations** at NeurIPS 2023 - Co-author
 
 Please see the [Publications](https://agriplifiediigoa.github.io/LJT-Homepage/publications/) page for a complete list of my publications.
 

@@ -44,7 +44,29 @@ Before starting my PhD, I received my B.Eng. from Shanghai Jiao Tong University 
 
 ## Publications
 
-Please see the [Publications](https://agriplifiediigoa.github.io/publications/) page for a complete list of my publications.
+{% include base_path %}
+
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        &lt;h2&gt;{{ category[1].title }}&lt;/h2&gt;&lt;hr /&gt;
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+Please see the [Publications](https://agriplifiediigoa.github.io/LJT-Homepage/publications/) page for a complete list of my publications.
 
 ## Contact
 
